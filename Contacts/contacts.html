@@ -9,23 +9,28 @@
 </head>
 <body>
 
-    <header class="container_header">Judy Youssef
+    <header class="container_header">
+        <a class="logo" href="../Homepage/homepage.html">Judy Youssef</a> 
 
         <ul class="nav"> 
             <li> <a href="../About_me/aboutme.html">About me</a></li>
             <li> <a href="../Work/work.html">Work</a></li>
-            <li> <a href="../Contacts/contacts.html">Contacts</a></li>
+            <li> <a href="../Contacts/contacts.html">Contact</a></li>
         </ul>
     </header>
 
-           
-    <form action="https://formsubmit.co/judyhanyy@gmail.com" method="POST">
-        <input class="inemail" type="email" name="email" placeholder="Your Email" required>
-        <input class="message" type="text" name="Message" placeholder="Your Message" required>
-        <button class="btn" type="submit">Send</button>
-        <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_template" value="table">
-   </form>
+    <div class="container_main2">
+        <p >For business inquires:</p>    
+        <form action="https://formsubmit.co/judyhanyy@gmail.com" method="POST">
+            <input class="name" type="text" name="Name" placeholder="Full Name*" required>
+            <input class="inemail" type="email" name="email" placeholder="Your Email*" required>
+            <input class="message" type="text" name="Message" placeholder="Your Message*" required>
+            <button class="btn" type="submit">Send</button>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+        </form>
+    </div>
+       
 
         
 </body>

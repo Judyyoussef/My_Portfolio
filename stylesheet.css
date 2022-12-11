@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color:rgb(244, 242, 239);
 }
 
@@ -34,15 +34,15 @@ a:hover{
     justify-content: space-between;
     text-decoration: none;
     font-size: 25px;
+    text-transform: uppercase;
 }
 
 .container_main{
     text-align: center;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 400px;
     width: 50%;
     align-items: center;
-    
 }
 
 .center{
@@ -62,18 +62,45 @@ a:hover{
    border-radius: 20px;
    background-color: rgb(181, 157, 122);
 }
+.button:hover{
+    background-color: rgb(102, 85, 59);
+}
+
 .main_section{
     display: flex;
+    justify-content: center;
+    /* border: 5px solid green; */
 }
 
 .left{
-    margin: 80px;
-    margin-left: 120px;
-    width: 468px;
-    height: 437px;
+    width: 500px;
+    height: 600px;
    object-fit: cover;
    border-radius: 20px;
+   flex: 1;
+
 }
+
+.right{
+    display: inline;
+    flex: 2;
+    font-size: 25px;
+    margin-left: 5%;
+}
+
+.top{
+    margin-bottom: 30px;
+    margin-top: 8%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.all{
+    margin:10% 20%;
+}
+
 .contact{
     margin-left: auto;
     margin-right: 0;
@@ -82,11 +109,6 @@ a:hover{
      align-content: left;
      justify-content: baseline;
      margin: 80px;
-}
-
-.top{
-    font-size: 35px;
-    font-weight: 700;
 }
 
 .contact{
@@ -99,9 +121,11 @@ a:hover{
      font-size: 35px;
      font-weight: 400;
 }
+.name{
+    margin-bottom: 10px;
+}
 
 .inemail{
-    margin-top: 150px;
     margin-bottom: 10px;
     
     
@@ -113,21 +137,207 @@ input{
     height: 100px;
     margin: 40px;
 }
-:required{
     
-}
 .btn{
+    margin-left: 40px;
+    font-size: 20px;
    width: 200px;
    height: 50px;
    color: white;
    background-color:rgb(181, 157, 122);
+   border-radius: 20px;
 }
 
 .btn:hover{
-    background-color: rgb(102, 85, 59);;
+    background-color: rgb(102, 85, 59);
 }
 
 .message{
+    height: 300px
+ 
+}
+
+p{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.logo{
+    color: black;
+    text-transform: uppercase;
+}
+.logo:hover{
+    color: black;
+}
+
+
+.Pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0px;
+}
+
+.p1{
+    border: 2px solid green;
+    display: flex;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 20px;
+    /* margin:50px;
+    padding-top: 40%;
+    padding: 0px 900px; */
+
+}
+
+.workIcon{
+    display: flex;
+    width: 230px;
+    height: 215px;
+    margin: 0px 50px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.container_main2{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+}
+
+.hovering1:hover{
+    opacity: 20%;
+}
+
+.hovering2:hover{
+    opacity: 20%;
+}
+
+.hovering3:hover{
+    opacity: 20%;
+}
+
+.hovering4:hover{
+    opacity: 20%;
+}
+
+.vertical{
+    margin-left: 36% ;
+    margin-top: 2%;
+    width: 26%;
+    height: 26%;
+}
+
+.horizontal{
+    margin-left: 35.5% ;
+    margin-top: 8%;
+    width: 26%;
+    height: 26%;
+}
+
+.nextvertical{
+    width: 3%;
+    margin-bottom: 16.5%;
+    margin-left: 1%;
+
+}
+
+.backvertical{
+    width: 3.35%;
+    margin: 30.5%;
+    margin-top: -27%;
+    margin-bottom: 17%;
+}
+
+.nexthorizontal{
+    width: 3%;
+    margin-bottom: 8%;
+    margin-left: 1%;
+}
+
+.backhorizontal{
+    width: 3.35%;
+    margin: 30.5%;
+    margin-top: -27%;
+    margin-bottom: 8.9%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+}
+.namevertical{
+    margin-top: 1%;
+    margin-left: 37%;
+    margin-bottom: -1%;
+}
+.typevertical{
+    margin-top: 0%;
+    margin-left: 37%;
+    font-weight: 900;
+}
+
+.typehorizontal{
+    margin-top: 8%;
+    margin-bottom: -5%;
+    margin-left: 37%;
+    font-weight: 900;
+}
+
+.namehorizontal{
+    margin-left: 37%;
+    margin-bottom: -7%;
+}
+
+.typebig{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* border: 2px solid green; */
+    margin-left: 26%;
+    margin-top: 6%;
+}
+
+figure{
+    margin-top: 15%;
+}
+
+figcaption{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.typebigPaint{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* border: 2px solid green; */
+    margin-left: 20%;
+    margin-top: 6%;
+}
+
+.PagesVideo{
+    display: flex;
+   
+    margin: 2% 0% 2% 24%;
+}
+
+.typesmallnav{
+    display: flex;
+    margin-left: 37%;
+    margin-bottom: 0%;
+    text-transform: uppercase;
     
-    padding: 7%;
+}
+p{
+    font-size: 24px;
+}
+
+.onpage{
+    font-weight: 700;
 }
