@@ -7,12 +7,12 @@
 }
 
 .container_header{
-    margin: 80px;
+    margin: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 li{
@@ -30,10 +30,10 @@ a:hover{
 
 .nav{
     display: flex;
-    width: 500px;
+    width: 350px;
     justify-content: space-between;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 12.5px;
     text-transform: uppercase;
 }
 
@@ -51,15 +51,15 @@ a:hover{
 }
 
 .button{
-    margin-top: 40px;
-   font-size: 30px;
+    margin-top: 20px;
+   font-size: 15px;
    color: rgb(255, 255, 255);
    font-weight: 900;
    text-transform: uppercase;
-   letter-spacing: 2px;
-   width: 500px;
-   padding: 20px;
-   border-radius: 20px;
+   letter-spacing: 1px;
+   width: 350px;
+   padding: 10px;
+   border-radius: 10px;
    background-color: rgb(181, 157, 122);
 }
 .button:hover{
@@ -73,10 +73,10 @@ a:hover{
 }
 
 .left{
-    width: 500px;
-    height: 600px;
+    width: 350px;
+    height: 300px;
    object-fit: cover;
-   border-radius: 20px;
+   border-radius: 10px;
    flex: 1;
 
 }
@@ -84,15 +84,15 @@ a:hover{
 .right{
     display: inline;
     flex: 2;
-    font-size: 25px;
+    font-size: 12.5px;
     margin-left: 5%;
 }
 
 .top{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     margin-top: 8%;
     text-align: center;
-    font-size: 35px;
+    font-size: 17.5px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -108,44 +108,44 @@ a:hover{
 .main_section2{
      align-content: left;
      justify-content: baseline;
-     margin: 80px;
+     margin: 40px;
 }
 
 .contact{
-    margin-bottom: 20px;
-    font-size: 35px;
+    margin-bottom: 10px;
+    font-size: 17.5px;
     font-weight: 900;
 }
 
 .email{
-     font-size: 35px;
+     font-size: 17.5px;
      font-weight: 400;
 }
 .name{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .inemail{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     
     
 }
 
 input{
-    font-size: 25px;
+    font-size: 12.5px;
     width: 100%;
-    height: 100px;
-    margin: 40px;
+    height: 50px;
+    margin: 20px;
 }
     
 .btn{
-    margin-left: 40px;
-    font-size: 20px;
-   width: 200px;
-   height: 50px;
+    margin-left: 20px;
+    font-size: 10px;
+   width: 100px;
+   height: 25px;
    color: white;
    background-color:rgb(181, 157, 122);
-   border-radius: 20px;
+   border-radius: 10px;
 }
 
 .btn:hover{
@@ -153,14 +153,14 @@ input{
 }
 
 .message{
-    height: 300px
+    height: 150px
  
 }
 
 p{
-    font-size: 25px;
-    margin-left: 40px;
-    margin-top: 150px;
+    font-size: 12.5px;
+    margin-left: 20px;
+    margin-top: 75px;
 }
 
 .logo{
@@ -180,24 +180,21 @@ p{
 }
 
 .p1{
-    border: 2px solid green;
+    border: 1px solid green;
     display: flex;
     font-weight: 400;
     text-transform: uppercase;
-    font-size: 20px;
-    /* margin:50px;
-    padding-top: 40%;
-    padding: 0px 900px; */
+    font-size: 10px;
 
 }
 
 .workIcon{
     display: flex;
-    width: 230px;
-    height: 215px;
-    margin: 0px 50px;
+    width: 115px;
+    height: 107.5px;
+    margin: 0px 25px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .container_main2{
     text-align: center;
@@ -292,7 +289,7 @@ p{
 }
 
 .typebig{
-    font-size: 32px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     /* border: 2px solid green; */
@@ -306,14 +303,14 @@ figure{
 
 figcaption{
     text-align: center;
-    margin-top: 5px;
-    font-size: 20px;
+    margin-top: 2.5px;
+    font-size: 10px;
     font-weight: 400;
     text-transform: uppercase;
 }
 
 .typebigPaint{
-    font-size: 32px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     /* border: 2px solid green; */
@@ -335,7 +332,7 @@ figcaption{
     
 }
 p{
-    font-size: 24px;
+    font-size: 12px;
 }
 
 .onpage{
