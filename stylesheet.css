@@ -40,13 +40,13 @@ a:hover{
 .container_main{
     text-align: center;
     margin: auto;
-    margin-top: 400px;
+    margin-top: 200px;
     width: 50%;
     align-items: center;
 }
 
 .center{
-    font-size: 96px;
+    font-size: 48px;
     font-weight: 900;
 }
 
